@@ -16,5 +16,9 @@
     "**/node_modules/**",
     "**/dist/**",
     "test/fixtures/**"
-  ]
+  ],
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  }
 }
